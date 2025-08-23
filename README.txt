@@ -1,24 +1,8 @@
-# Hava Durumu Uygulaması (Tkinter)
+# Weather App
 
-Bu proje, OpenWeatherMap API kullanarak belirli bir şehrin hava durumu bilgilerini gösteren basit bir tkinter GUI uygulamasıdır.
+A simple Python project that shows the current weather of a given city using an API.
 
-## Kullanılan Teknolojiler
-- Python
-- Tkinter
-- PIL (Pillow)
-- OpenWeatherMap API
-
-## Ekran Görüntüsü
-
-*(Ekran görüntüsü eklenecekse buraya ekleyebilirsin)*
-
-## Nasıl Çalıştırılır
-
-1. `pip install pillow requests` komutuyla gerekli kütüphaneleri yükleyin.
-2. `main.py` dosyasını çalıştırın.
-3. Açılan pencereye şehir ismini yazıp "Hava Durumunu Getir" butonuna basın.
-
-## Not
-API anahtarınızı `main.py` içinde değiştirmeyi unutmayın.
-
-
+### Features
+- Fetches live weather data
+- Displays temperature, humidity, and description
+- Built with Python and requests library

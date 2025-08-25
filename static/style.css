@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: bakcground 0.5s;
+}
+
+body {
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+}
+
+body.clear {
+    background: linear-gradient(to bottom, #fceabb, #f8b500); /*güneşli*/
+}
+
+body.clouds {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /*bulutlu*/
+}
+
+body.rain {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /*yağmurlu*/
+}
+
+body.snow {
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /*karlı*/
+}
+
+body.drizzle {
+    background: linear-gradient(to bottom, #89f7fe, #66a6ff); /*çiseleme*/
+}
+
+body.thunderstorm {
+    background: linear-gradient(to bottom, #243b55); /*fırtınalı*/
+}
+
+.container {
+    background-color: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    width: 300px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+.weather-card {
+    margin-top: 20px;
+}
+
+.weather-card img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
